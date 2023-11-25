@@ -4,110 +4,93 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane prefHeight="587.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Controller">
+<Pane prefHeight="587.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Controller">
     <GridPane alignment="CENTER" layoutX="1.0" layoutY="87.0" prefHeight="500.0" prefWidth="509.0">
         <columnConstraints>
-            <ColumnConstraints/>
-            <ColumnConstraints/>
-            <ColumnConstraints/>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
         </columnConstraints>
         <rowConstraints>
-            <RowConstraints/>
-            <RowConstraints/>
-            <RowConstraints/>
-            <RowConstraints/>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
         </rowConstraints>
-        <Button fx:id="m_button1" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.rowIndex="1">
+        <Button fx:id="m_button1" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button2" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <Button fx:id="m_button2" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button3" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <Button fx:id="m_button3" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button4" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.rowIndex="2">
+        <Button fx:id="m_button4" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button5" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        <Button fx:id="m_button5" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button6" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+        <Button fx:id="m_button6" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button7" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.rowIndex="3">
+        <Button fx:id="m_button7" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button8" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <Button fx:id="m_button8" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
-        <Button fx:id="m_button9" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0"
-                prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+        <Button fx:id="m_button9" focusTraversable="false" onAction="#handleButtonClick" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
             <font>
-                <Font name="System Bold" size="65.0"/>
+                <Font name="System Bold" size="75.0" />
             </font>
         </Button>
     </GridPane>
-    <TextField fx:id="m_textScoreX" alignment="CENTER" editable="false" focusTraversable="false" layoutX="169.0"
-               layoutY="37.0" prefHeight="40.0" prefWidth="50.0" text="0">
+    <TextField fx:id="m_textScoreX" alignment="CENTER" editable="false" focusTraversable="false" layoutX="169.0" layoutY="37.0" prefHeight="40.0" prefWidth="50.0" text="0">
         <font>
-          <Font name="System Bold" size="19.0"/>
+          <Font name="System Bold" size="19.0" />
         </font>
     </TextField>
-    <TextField fx:id="m_textScoreO" alignment="CENTER" editable="false" focusTraversable="false" layoutX="289.0"
-               layoutY="37.0" prefHeight="40.0" prefWidth="50.0" text="0">
+    <TextField fx:id="m_textScoreO" alignment="CENTER" editable="false" focusTraversable="false" layoutX="289.0" layoutY="37.0" prefHeight="40.0" prefWidth="50.0" text="0">
         <font>
-          <Font name="System Bold" size="19.0"/>
+          <Font name="System Bold" size="19.0" />
         </font>
     </TextField>
-    <TextField alignment="CENTER" focusTraversable="false" layoutX="243.0" layoutY="43.0" prefHeight="29.0"
-               prefWidth="25.0" text=":">
+    <TextField alignment="CENTER" focusTraversable="false" layoutX="243.0" layoutY="43.0" prefHeight="29.0" prefWidth="25.0" text=":">
         <font>
-          <Font name="System Bold" size="13.0"/>
+          <Font name="System Bold" size="13.0" />
         </font>
     </TextField>
-    <TextField fx:id="m_infoText" alignment="CENTER" editable="false" focusTraversable="false" layoutX="95.0"
-               layoutY="2.0" prefHeight="30.0" prefWidth="308.0" text="PLAYER X'S TURN">
+    <TextField fx:id="m_infoText" alignment="CENTER" editable="false" focusTraversable="false" layoutX="95.0" layoutY="2.0" prefHeight="30.0" prefWidth="308.0" text="PLAYER X'S TURN">
         <font>
-          <Font name="System Bold" size="13.0"/>
+          <Font name="System Bold" size="13.0" />
         </font>
     </TextField>
-    <Button fx:id="m_buttonNextRound" alignment="CENTER" focusTraversable="false" layoutX="28.0" layoutY="42.0"
-            mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="29.0" prefWidth="111.0" text="NEXT ROUND">
+    <Button fx:id="m_buttonNextRound" alignment="CENTER" focusTraversable="false" layoutX="28.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="29.0" prefWidth="111.0" text="NEXT ROUND">
         <font>
-          <Font name="System Bold" size="14.0"/>
+          <Font name="System Bold" size="14.0" />
         </font>
     </Button>
-    <Button fx:id="m_buttonResetScore" alignment="CENTER" focusTraversable="false" layoutX="366.0" layoutY="42.0"
-            mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="29.0" prefWidth="111.0"
-            text="RESET SCORE">
+    <Button fx:id="m_buttonResetScore" alignment="CENTER" focusTraversable="false" layoutX="366.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="29.0" prefWidth="111.0" text="RESET SCORE">
         <font>
-          <Font name="System Bold" size="14.0"/>
+          <Font name="System Bold" size="14.0" />
         </font>
     </Button>
 </Pane>
